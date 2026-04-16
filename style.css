@@ -1,0 +1,42 @@
+body {
+    background-image: url('lana.jpeg'); /* your background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Main box */
+.box {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 600px;
+}
+
+/* Text styling */
+h3 {
+    color: darkred;
+    font-weight: bold;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+}
+
+summary {
+    color: darkred;
+    cursor: pointer;
+}
+
+#note {
+    color: black;
+    font-size: 13px;
+}
+
+/* Inputs */
+.form-control {
+    text-align: center;
+}
+
+.form-control::placeholder {
+    color: darkred;
+}
